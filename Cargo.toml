@@ -1,0 +1,11 @@
+[package]
+name = "deltachat-login-rust"
+version = "0.1.0"
+authors = ["pabz"]
+edition = "2018"
+
+[dependencies]
+actix-web = "1.0"
+handlebars = "2.0.2"
+serde_json = "1.0.42"
+deltachat = { git = "https://github.com/deltachat/deltachat-core-rust" }
